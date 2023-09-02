@@ -1,0 +1,213 @@
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.card-set {
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  font-family: 'DINPro Cond', 'Open Sans', Verdana, Arial, sans-serif;
+  width: 249px;
+  height: 348px;
+  background: url(https://www.fifplay.com/img/fifa/22/cards/1_3_3.png) no-repeat;
+  background-size: contain;
+  color: #e8cb7a;
+  text-align: center;
+  line-height: 22px;
+}
+
+.card-rating {
+  position: absolute;
+  font-size: 41px;
+  font-weight: bold;
+  top: 55px;
+  left: 41px;
+  line-height: 44px;
+}
+
+.card-position {
+  position: absolute;
+
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  top: 94px;
+  left: 55px;
+}
+
+.card-nation {
+  position: absolute;
+  width: 60px;
+  top: 119px;
+  left: 55px;
+}
+
+.card-nation img {
+  max-width: 34px;
+  max-height: 21px;
+}
+
+.card-club {
+  position: absolute;
+  width: 60px;
+  top: 148px;
+  left: 55px;
+}
+.card-club img {
+  max-width: 35px;
+}
+
+.card-picture {
+  position: absolute;
+  width: 130px;
+  top: 54px;
+  left: 81px;
+}
+
+.card-name {
+  position: absolute;
+  font-size: 12px;
+  left: 0px;
+  top: 187px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-attr {
+  position: absolute;
+  font-size: 14px;
+  text-transform: uppercase;
+  min-width: 68px;
+  width: auto;
+  text-align: left;
+}
+.card-attr span {
+  margin-right: 8px;
+}
+.card-attr1 {
+  top: 215px;
+  left: 59px;
+}
+.card-attr2 {
+  top: 235px;
+  left: 59px;
+}
+.card-attr3 {
+  top: 255px;
+  left: 59px;
+}
+.card-attr4 {
+  top: 215px;
+  left: 147px;
+}
+.card-attr5 {
+  top: 235px;
+  left: 147px;
+}
+.card-attr6 {
+  top: 255px;
+  left: 147px;
+}
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.modal-card {
+  width: 380px;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: #1a334d;
+  background: linear-gradient(90deg, #1a334d 0%, #aea9cb 45%, #1a334d 90%);
+  background: -webkit-linear-gradient(90deg, #1a334d 0%, #aea9cb 45%, #1a334d 90%);
+  background: -moz-linear-gradient(90deg, #1a334d 0%, #aea9cb 45%, #1a334d 90%);
+
+  box-shadow: 8px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 9px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 9px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.modal-card__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.player__badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player__characteristics {
+  max-width: 200px;
+}
+.player__photo {
+  display: block;
+  object-fit: contain;
+  width: 150px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.player-description {
+  position: relative;
+}
+.player__position {
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+.player__rating {
+  position: absolute;
+  top: -25px;
+  right: 0;
+}
+.player__rating-range {
+  width: 136px;
+  height: 8px;
+  background-color: green;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.player__name {
+  text-align: center;
+}
+
+.card__bottom {
+  padding: 10px;
+}
+.card__title-info {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(150 150 180);
+}
+
+.player-info-item {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+.player-info__rating {
+  flex-grow: 1;
+  text-align: end;
+}
+.player-info__name {
+  width: 200px;
+  text-align: center;
+}

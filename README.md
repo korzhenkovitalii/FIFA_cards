@@ -1,2 +1,3 @@
-# FIFA_cards
- 
+# FiFA_cards
+
+// Файл playersData имитирует сервер//
