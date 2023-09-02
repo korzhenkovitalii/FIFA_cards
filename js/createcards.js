@@ -1,4 +1,4 @@
-import { playersData } from './playersData.js';
+import { playersData } from '../js/playersData.js';
 
 const refs = {
   containerEl: document.querySelector('.card-set'),

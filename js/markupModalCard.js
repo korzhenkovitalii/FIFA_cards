@@ -1,5 +1,5 @@
-import { playersData } from './playersData.js';
-import { createRadarRating } from './createRadarRating.js';
+import { playersData } from '../js/playersData.js';
+import { createRadarRating } from '../js/createRadarRating.js';
 
 const refs = {
   cardsEl: document.querySelectorAll('.card'),
